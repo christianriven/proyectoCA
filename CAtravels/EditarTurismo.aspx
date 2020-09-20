@@ -145,7 +145,7 @@
             </p>
 			&nbsp;<p>Contact Phone Number:</p>
             <p>
-                <asp:TextBox ID="TxtTempresa" runat="server" Height="25px" Width="143px" MaxLength="4" onkeypress="return NumCheck(event)"></asp:TextBox>
+                <asp:TextBox ID="TxtTempresa" runat="server" Height="25px" Width="143px" MaxLength="8" onkeypress="return NumCheck(event)"></asp:TextBox>
             </p>
 			&nbsp;<p>E-mail</p>
             <p>
@@ -156,14 +156,11 @@
             <div class="btn__form">
             	&nbsp;<asp:Button ID="Button1" runat="server" Text="SELECT" cssClass="btn__reset" Height="34px" OnClick="Button1_Click" Width="261px"/>
 &nbsp;<asp:Button ID="Btnadd" runat="server" Text="EDIT" cssClass="btn__submit" Width="289px" OnClick="Btnadd_Click" Height="37px" />
-            </div>
-        	</div>
+           
+                </div>
+        
     	</div>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
-
-    <asp:GridView ID="gvdlista" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" >
+                <asp:GridView ID="gvdlista" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" >
 		<AlternatingRowStyle BackColor="White" />
 		 <Columns>
                     
@@ -187,6 +184,13 @@
                 <SortedDescendingCellStyle BackColor="#E9EBEF" />
                 <SortedDescendingHeaderStyle BackColor="#4870BE" />
     </asp:GridView>
+        	</div>
+                
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
+
+    
             <br />
             <br />
 		</form>

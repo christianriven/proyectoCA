@@ -24,6 +24,7 @@ div {text-align: center;}
 	  <form id="form1" runat="server">
     
 	  <div class="condtainer"> 
+		  </div>
  
 		
 	
@@ -52,30 +53,27 @@ div {text-align: center;}
 		  </ul>
 	  </nav>
   </div>
-	
-	
-	
   <div class="row" id="fondo">
 		<div class="col-4">
 			<h2 style="font-size: 180%" align="center" id="titulos"> Guatemala </h2>
 			<br>
-			<a href="">
-				&nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="62%" ImageUrl="~/imagenes/1.png" Width="89%" OnClick="ImageButton1_Click" />
-            </a>
+			
+				<asp:ImageButton ID="ImageButton1" runat="server" Height="20%" ImageUrl="~/imagenes/1.png" Width="80%" OnClick="ImageButton1_Click" />
+         
 	
 		</div>
 		<div class="col-4">
 			<h2 style="font-size: 180%" align="center" id="titulos"> Honduras </h2>
 			<br>
-			<a href="">&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="62%" ImageUrl="~/imagenes/dt.common.streams.StreamServer.jpg" Width="89%" OnClick="ImageButton2_Click1" />
+			<asp:ImageButton ID="ImageButton2" runat="server" Height="20%" ImageUrl="~/imagenes/dt.common.streams.StreamServer.jpg" Width="80%" OnClick="ImageButton2_Click1" />
 		</div>
 			
-			<div class="col-4"> </a>
+			<div class="col-4"> 
 			<h2 style="font-size: 180%" align="center" id="titulos"> El Salvador </h2>
 			<br>
-			    <a href="">
-				&nbsp;<asp:ImageButton ID="ImageButton3" runat="server" Height="62%" ImageUrl="~/imagenes/7-rotado.jpg" Width="89%" OnClick="ImageButton3_Click" />
-                </a>
+			    
+				<asp:ImageButton ID="ImageButton3" runat="server" Height="20%" ImageUrl="~/imagenes/7-rotado.jpg" Width="80%" OnClick="ImageButton3_Click" />
+                
 		</div>
 		
 	</div>
@@ -87,25 +85,22 @@ div {text-align: center;}
 		
 			<h2 style="font-size: 180%" align="center" id="titulos"> Costa Rica </h2>
 			<br>
-			<a href="">
-				&nbsp;<asp:ImageButton ID="ImageButton4" runat="server" Height="62%" ImageUrl="~/imagenes/Costa-Rica.jpg" Width="89%" OnClick="ImageButton4_Click" />
+			
+				<asp:ImageButton ID="ImageButton4" runat="server" Height="20%" ImageUrl="~/imagenes/Costa-Rica.jpg" Width="80%" OnClick="ImageButton4_Click" />
 		</div>
 		<div class="col-6">
 			
 			<h2 style="font-size: 180%" align="center" id="titulos"> Panama </h2>
 			<br>
-			<a href="">
-				&nbsp;<asp:ImageButton ID="ImageButton5" runat="server" Height="62%" ImageUrl="~/imagenes/Que-hacer-en-Ciudad-de-Panamá-Conocer-lugares-y-destinos-turísticos-1-1.png" Width="89%" OnClick="ImageButton5_Click" /> </a>
+			
+				<asp:ImageButton ID="ImageButton5" runat="server" Height="20%" ImageUrl="~/imagenes/Que-hacer-en-Ciudad-de-Panamá-Conocer-lugares-y-destinos-turísticos-1-1.png" Width="80%" OnClick="ImageButton5_Click" /> </a>
 		</div>
 		
 		
 	
 		
 	</div>
-		<div class="col-16">
-		<h1 style="font-size: 180%" align="center" id="titulos"> Tourism in Central America</h1>
-		<iframe id="video1" width="450" height="300" src="https://www.youtube.com/embed/kiUrluu6fZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>  
+		
 		
 	
 	<script src="js/jquery.min.js"></script>	

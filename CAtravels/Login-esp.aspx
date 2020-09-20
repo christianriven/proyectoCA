@@ -28,7 +28,7 @@
 	               <nav class="nav-main"id="color-barra">
 				<ul class="nav-menu" >
 				    <li>
-                        <asp:LinkButton ID="LBvuelos" runat="server" OnClick="LBvuelos_Click"  >ENG</asp:LinkButton>
+                        <asp:LinkButton ID="LBvuelos" runat="server" OnClick="LBvuelos_Click" CssClass="white-text"  >ENG</asp:LinkButton>
                     </li>
 				</ul>
 	</nav>
@@ -37,7 +37,7 @@
 
 
 <div class="login-box">
-  &nbsp;<h1>Ingresar <img class="avatar" src="img/logo.jpeg" alt="logo C.A."></h1>
+  &nbsp;<h1> <img class="avatar" src="img/logo.jpeg" alt="logo C.A."></h1>
     
     <label for="username">Nombre de usuarios<asp:TextBox ID="txtUname" runat="server"></asp:TextBox>
         </label>

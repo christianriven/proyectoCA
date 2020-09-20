@@ -118,12 +118,7 @@
 &nbsp;<asp:Button ID="Btnadd" runat="server" Text="Eliminar" cssClass="btn__submit" Width="289px" OnClick="Btnadd_Click" Height="37px" />
             </div>
         	</div>
-    	</div>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
-         <br />
-            <asp:GridView ID="gvdlista" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" >
+                <asp:GridView ID="gvdlista" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" >
 		<AlternatingRowStyle BackColor="White" />
 		 <Columns>
                     <asp:BoundField DataField="Id_empresa" HeaderText="ID" />
@@ -146,6 +141,12 @@
                 <SortedDescendingCellStyle BackColor="#E9EBEF" />
                 <SortedDescendingHeaderStyle BackColor="#4870BE" />
     </asp:GridView>
+    	</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
+         <br />
+            
             <br />
             <br />
 		</form>
