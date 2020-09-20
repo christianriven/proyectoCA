@@ -114,7 +114,7 @@ namespace CAtravels
         protected void LinkButton5_Click(object sender, EventArgs e)
         {
             Session.Remove("usuario");
-            Response.Redirect("login.aspx");
+            Response.Redirect("Login-esp.aspx");
         }
     }
 }

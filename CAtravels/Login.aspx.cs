@@ -103,5 +103,10 @@ namespace CAtravels
         {
 
         }
+
+        protected void LBvuelos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("login-esp.aspx");
+        }
     }
 }

@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/master.css">
       <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
+          <link href="css/mi-estilo1.css" rel="stylesheet">  
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+      	<link href="css/materialize.css" rel="stylesheet">
       <script type="text/javascript">
          function validar(e) { // 1
              tecla = (document.all) ? e.keyCode : e.which; // 2
@@ -62,10 +65,10 @@
   <body>
       <form id="form1" runat="server">
           <div class="container"> 
-          <nav class="nav-main1">
-				<ul class="nav-menu1">
+          <nav class="nav-main">
+				<ul class="nav-menu">
                     <li>
-                        <asp:LinkButton ID="LBvuelos" runat="server" >Airline Flight Company</asp:LinkButton>
+                        <asp:LinkButton ID="LBvuelos" runat="server" OnClick="LBvuelos_Click" >ESP</asp:LinkButton>
                     </li>
           </ul>
 	</nav>
@@ -97,8 +100,9 @@
         <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
         <br />
         &nbsp;<asp:LinkButton ID="LinkButton3" runat="server" ForeColor="White" OnClick="LinkButton3_Click">Log in as Company</asp:LinkButton>
+          </div>
     </form>
-  </div>
+
       
 
   </body>

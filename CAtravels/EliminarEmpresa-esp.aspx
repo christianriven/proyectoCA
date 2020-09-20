@@ -39,7 +39,7 @@
 				</ul>
          <ul class="nav-menu-right" >
 			  <li >
-				 <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" ForeColor="Black">Log Out</asp:LinkButton>
+				 <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" ForeColor="Black">Cerrar Sesion</asp:LinkButton>
 			  </li>
 		  </ul>
 	</nav>

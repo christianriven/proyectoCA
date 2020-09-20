@@ -11,6 +11,9 @@
       <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
       
+    <link href="css/mi-estilo1.css" rel="stylesheet">  
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+      	<link href="css/materialize.css" rel="stylesheet">
       <style type="text/css">
           #form1 {
               height: 314px;
@@ -19,7 +22,18 @@
       
   </head>
   <body>
-      <form id="form1" runat="server">
+            <form id="form1" runat="server">
+
+                <div class="container" > 
+	               <nav class="nav-main"id="color-barra">
+				<ul class="nav-menu" >
+				    <li>
+                        <asp:LinkButton ID="LBvuelos" runat="server" OnClick="LBvuelos_Click"  >ENG</asp:LinkButton>
+                    </li>
+				</ul>
+	</nav>
+</div>
+
 
 
 <div class="login-box">
@@ -48,9 +62,11 @@
         <script src="js/bootstrap.min.js"></script>
         <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
         <br />
+
         &nbsp;<asp:LinkButton ID="LB_ingresarempresa" runat="server" ForeColor="White" OnClick="LB_ingresarempresa_Click" >Ingresar como compañia</asp:LinkButton>
+          </div>
     </form>
-  </div>
+
       
 
   </body>

@@ -98,5 +98,14 @@ namespace CAtravels
             return Convert.ToBase64String(cipherTextBytes);
         }
 
+        protected void LBinicio_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
+
+        protected void LBvuelos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 }

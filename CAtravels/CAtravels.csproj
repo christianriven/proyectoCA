@@ -123,6 +123,7 @@
     <Content Include="css\materialize.css" />
     <Content Include="css\materialize.min.css" />
     <Content Include="css\mi-estilo.css" />
+    <Content Include="css\mi-estilo1.css" />
     <Content Include="css\reset.css" />
     <Content Include="css\resettt.css" />
     <Content Include="css\style.css" />

@@ -36,7 +36,6 @@
       
   <div class="contdainer" id="menuprincipal1">
 	  <nav class="nav-main">
-
 		  <ul class="nav-menu">
                  <li>
 					
