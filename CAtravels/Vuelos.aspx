@@ -33,21 +33,21 @@ div {text-align: center;}
 		  <ul class="nav-menu">
                  <li>
 					
-                  <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LBinicio_Click" >HOME</asp:LinkButton></li>
+                  <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LBinicio_Click" CssClass="white-text" >HOME</asp:LinkButton></li>
 				  <li>
 					  
-                      <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LBvuelos_Click">FLIGHTS</asp:LinkButton></li>
+                      <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LBvuelos_Click" CssClass="white-text">FLIGHTS</asp:LinkButton></li>
 					<li>
 						
-						<asp:LinkButton ID="LinkButton3" runat="server" OnClick="LBpaquetes_Click">PACKAGES</asp:LinkButton></li>
+						<asp:LinkButton ID="LinkButton3" runat="server" OnClick="LBpaquetes_Click" CssClass="white-text">PACKAGES</asp:LinkButton></li>
 				   <li>
 					   
-                       <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton2_Click">OFFERS</asp:LinkButton>
+                       <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton2_Click" CssClass="white-text">OFFERS</asp:LinkButton>
                     </li>
 		   </ul>
 		  <ul class="nav-menu-right">
 			  <li>
-				  <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">Log Out</asp:LinkButton>
+				  <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" CssClass="white-text">Log Out</asp:LinkButton>
 			  </li>
 		  </ul>
 	  </nav>

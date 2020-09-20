@@ -51,16 +51,16 @@
 	<nav class="nav-main">
 				<ul class="nav-menu">
                     <li>
-                        <asp:LinkButton ID="LBvuelos" runat="server" OnClick="LBvuelos_Click">Airline Flight Company</asp:LinkButton>
+                        <asp:LinkButton ID="LBvuelos" runat="server" OnClick="LBvuelos_Click" CssClass="white-text">Airline Flight Company</asp:LinkButton>
                     </li>
                     <li>
-                        <asp:LinkButton ID="LBturismo" runat="server" OnClick="LBturismo_Click">Tourism Company</asp:LinkButton>
+                        <asp:LinkButton ID="LBturismo" runat="server" OnClick="LBturismo_Click" CssClass="white-text">Tourism Company</asp:LinkButton>
                     </li>
                     <li>
-                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">EDIT</asp:LinkButton>
+                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" CssClass="white-text">EDIT</asp:LinkButton>
                     </li>
                     <li>
-                        <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">DELETE</asp:LinkButton>
+                        <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" CssClass="white-text">DELETE</asp:LinkButton>
                     </li>
 				</ul>
         <ul class="nav-menu-right" >
